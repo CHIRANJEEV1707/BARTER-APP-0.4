@@ -38,7 +38,7 @@ export default class RequestScreen extends React.Component(){
                                         <View>
                                          <TextInput
                                          placeholder="PLEASE ENTER YOUR ITEM NAME"
-                                         value={this.state.bookName}
+                                         value={this.state.itemName}
                                          onChangeText={(text)=>{
                                                    this.setState({
                                                              itemName: text

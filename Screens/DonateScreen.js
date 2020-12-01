@@ -4,7 +4,7 @@ import {Header,ListItem} from 'react-native-element'
 import db from '../config'
 import firebase from 'firebase'
 
-export default class BookDonateScreen extends React.Component{
+export default class DonateScreen extends React.Component{
           constructor(){
            super();
            this.state={
